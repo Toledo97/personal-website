@@ -1,0 +1,35 @@
+div {
+    background-color: #8FBDD3;
+    padding: 0.625em;
+}
+h1 {
+    margin-bottom: 10;
+    font-family: 'IBM Plex Mono', monospace;
+}
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+h3 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+hr {
+    margin-top: 0;
+}
+
+img {
+    max-width: 3.125em;
+}
+
+h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    margin-bottom: 0.3125em;
+    margin-top: 0;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 0.625em;
+}
