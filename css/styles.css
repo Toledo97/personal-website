@@ -1,5 +1,4 @@
 div {
-    background-color: #8FBDD3;
     padding: 0.625em;
 }
 h1 {
@@ -33,3 +32,13 @@ p {
     margin: 0;
     padding-bottom: 0.625em;
 }
+
+ul{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    display: inline;
+}
+
