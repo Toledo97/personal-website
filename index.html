@@ -2,6 +2,8 @@
   <head>
       <meta charset="utf-8">
       <title>Carlos' Personal Site</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="css/styles.css">
       <link rel="stylesheet" href="css/classes.css">
       <link rel="stylesheet" href="css/ids.css">
@@ -11,55 +13,255 @@
       <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&family=Inconsolata:wght@300&family=Source+Code+Pro&display=swap" rel="stylesheet">
   </head>
     <body>
-      <div class="top-container">
+      <section id = "top-container">
+        <div>
           <img id="cloudsR" src="photos/cloud.png" alt="">
           <img id="pfp" src="photos/me.png" alt="">
           <h1>Carlos A Toledo Jr</h1>
           <p class="major">Computer Engineer @ UIUC</p>
           <img id="cloudsL" src="photos/cloud.png" alt="">
           <!-- <img id="mountain" src="photos/mountain.png" alt=""> -->
-      </div>
-      <div class="sec-container" >
-          <h2>Programming Languages</h2>   
-              <img src="photos/vhdl.png" class="vhdl profile"alt="">
-              <img src="photos/asm.png" class="asm"alt="">
-              <img src="photos/c.png" class="cProgramming" alt="">
-              <img src="photos/c-.png" alt="">     
-              <img src="photos/python.png" alt="">
-              <img src="photos/html-5.png" alt="">
-              <img src="photos/css-3.png" alt="">
-              <img src="photos/mysql.png" class="mySql profile" alt=""> 
         </div>
-        <div class="third-container" >
-          <div class="skills">
-            <h2>Experience</h2>
-            <img class="" src="" alt="">
-            <h3>IBM</h3>
+      </section >
+
+      <section id="sec-container">
+        <h2>Work Experience</h2>  
+        <div class="row">
+          <div class="col-md-3 ">
+            <img id="ibm" src="photos/ibm.png" alt=""></h3>
             <h4>Software Developer</h4>
-            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-            <hr class="bdl">
-            <h3>Motorola Solutions</h3>
+            <h6>Bloomington, IL</h6>
+            <h6>May 2022 - Aug 2022</h6>
+          </div>
+          <div class="col-lg-8">
+            <table>
+              <ul>
+                <strong>RESTful APIs: </strong>
+                Implemented the REST api to various python APIs that collect 1000+ clusters of data from Github and Service Now, 
+                improving data analyse and organization.
+              </ul>
+              <ul>
+                <strong>Databases: </strong>
+                Designed a parameterized Database API to save csv files to any given table and database using MySql and python.
+              </ul>
+              <ul>
+                <strong>Openshift: </strong>
+                Collobarated with others on a Openshift micro-service to organize and consolidate data that includes authorization and authentication methods.
+              </ul>
+              <ul>
+                <strong>Jira: </strong>
+                Practiced Agile/Scrum methodology through daily meetings, retrospectives, and reviews.
+              </ul>
+            </table>
+          </div>
+        </div>
+    
+        <hr class="bdl">
+        <div class="row">
+          <div class="col-md-3 ">
+            <img id="ms" src="photos/Motorola-Solutions.png" alt=""></h3>
             <h4>Software Engineer</h4>
-            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+            <h6>Champaign, IL</h6>
+            <h6>May 2021 - May 2022</h6>
+          </div>
+          <div class="col-lg-8">
+            <table>
+              <ul>
+                <strong>Automation: </strong>
+                Built an automated on-boarding script that reads user input and populates multiple tables in a database with Python and MySQL, 
+                increasing time efficientcy by 75%.
+              </ul>
+              <ul>
+                <strong>Python APIs: </strong>
+                Created multiple Python APIs and used multiprocessing libraries to interact with different databases like CouchDB and Cosmos.
+              </ul>
+              <ul>
+                <strong>MySQL: </strong>
+                Gained experience with cloud-based databases and cloud computing using the MySQL Workbench and the AWS Workspace.
+              </ul>
+              <ul>
+                <strong>Jira: </strong>
+                Learned and used the Atlassian Software for documentation in Confluence while implementing Agile/Scrum methodology with Jira.
+              </ul>
+            </table>
           </div>
         </div>
-        <div class="bottom-container">
-          <div class="bottom-container">
-            <h2>Projects</h2>
+      </section>
+      
+      <section id="third-container">
+        <h3>Programming Languages</h3> 
+        <img src="photos/vhdl.png" class="vhdl profile"></div>
+        <img src="photos/asm.png" class="asm"></div>
+        <img src="photos/c.png" class="cProgramming"></div>
+        <img src="photos/c-.png" ></div>
+        <img src="photos/python.png" ></div>
+        <img src="photos/html-5.png" ></div>
+        <img src="photos/css-3.png" ></div>
+        <img src="photos/mysql.png" class="mySql profile"></div>   
+      </section>
+      
+      <section id="fourth-container">
+        <h3>Projects</h3>
+        <div class="row">
+          <div class="col-md-3">
+            <h4><strong>CarlOS</strong>  <br> Operating System</h4>
+            <h6>Champaign, IL</h6>
+            <h6>Mar 2022 - May 2022</h6>
           </div>
-          <div class="bottom-container">
-            <h2>Extra Curriculars</h2>
-          </div>
-          <div class="bottom-container">
-            <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+          <div class="col-lg-8">
+            <table>
+              <ul>
+                <strong>Functionality:</strong> The current state of the OS consists of a single terminal with a read-only file-system. 
+                It can execute and close basic c programs through the terminal.
+              </ul>
+              <ul>
+                <strong>Keyboard Driver:</strong> keyboard driver that interacts with the terminal and file-system.
+              </ul>
+              <ul>
+                <strong>Memory:</strong> 2 Level paging scheme (page directory / table) that consists of 4MB or 4KB pages.
+              </ul>
+            </table>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-3">
+            <h4>Home Security System on TI MSP432</h4>
+            <h6>Champaign, IL</h6>
+            <h6>Nov 2021</h6>
+          </div>
+          <div class="col-lg-8">
+            <table>
+              <ul>
+                <strong>Functionality:</strong> Used a keypad and a LCD screen in conjunction with the MSP432 to control lights, 
+                a fan, a temperature sensor, burglar alarm and a servo motor used for a door.
+              </ul>
+              <ul>
+
+              </ul>
+            </table>
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <h4>Tetris Video game on D10 Lite FPGA</h4>
+            <h6>Champaign, IL</h6>
+            <h6>Apr 2021 - May 2021</h6>
+          </div>
+          <div class="col-lg-8">
+            <table>
+              <ul>
+                <strong>Quartus Prime:</strong> 
+                Designed basic logic on Quartus Prime Platform to output in VGA format and a SoC - NIOS II processor for USB control.
+              </ul>
+              <ul>
+                <strong>FPGA I/O:</strong> Used Xbox One Controller Drivers to function on the FPGA for game movement and general I/O.
+              </ul>
+              <ul>
+                <strong>Game Sprites:</strong> Created custom block sprites that are projected in the VGA format and saved in a
+                two-dimensional, tri-directional shift register.
+              </ul>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="bottom-container">
+        <h3>Leadership & Actvities</h3>
+        <div class="row">
+          <div class="col-md-3">
+            <h4>IBM Accelerate Program</h4> 
+            <h6>Hardware Developer Track</h6>
+            <h6>Jun 2022 - Jul 2022</h6>
+          </div>
+          <div class="col-lg-8">
+            <table>
+              <ul>
+                Through IBM subject matter expert-led education, the following concepts were explored and researched: 
+                <ul>
+                  <li>
+                    logic design, processor and hardware development, product engineering, firmware development.
+                  </li>
+                  <li>
+                    relationship building, learning agility, corporate communications, emotional intelligence, growth mindset, resume building and interviewing
+                  </li>
+                </ul>
+              </ul>
+            </table>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <h4>Expert Learning Assistant</h4>
+            <h6>Urbana, IL</h6>
+            <h6>Aug 2020 - May 2021</h6>
+          </div>
+          <div class="col-lg-8">
+            <table>
+              <ul>
+                <i>University Physics: Mechanics / Electricity & Magnetism</i>
+                <ul>
+                  <li>
+                    Assisted students and instructors with lab activities and discuss useful methods of lab completion for students.
+                  </li>
+                  <li>
+                    Practiced effective questioning and active listening strategies when engaging with students.
+                  </li>
+                </ul>
+              </ul>
+            </table>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <h4>SHPE UIUC Chapter</h4>
+            <h6>Urbana, IL</h6>
+            <h6>Aug 2019 - May 2021</h6>
+          </div>
+          <div class="col-lg-8">
+            <table>
+              <ul>
+                <strong>Fundraising Co-Lead </strong> <br>
+                <i>July 2020 - May 2021</i>
+                <ul>
+                  <li>
+                    Brainstormed, organized and facilitated creative alternatives fundraising events for the organization and local charities.
+                  </li>
+                  <li>
+                    Efficiently communicated with my co-lead for budgeting schemes to prevent overspending and fundraising logistic.
+                  </li>
+                </ul>
+                <strong>Activities Lead </strong> <br>
+                <i>July 2020 - May 2021</i>
+                <ul>
+                  <li>
+                    Created alternative online activities for the organization's outreach programs that are both engaging and constructive.
+                  </li>
+                  <li>
+                    Organized and executed activities with a written plan to prepare for any logistical issues.
+                  </li>
+                </ul>
+                <strong>Round-Table Treasurer</strong> <br>
+                <i>Aug 2019 - May 2020</i>
+                <ul>
+                  <li>
+                    Planned and executed fundraising events to raise money for social events and non-profit organizations.
+                  </li>
+                  <li>
+                    Lead a team to organize the biggest event for SHPE, the date auction / dance, for funding the
+                    UIUC Chapter.
+                  </li>
+                </ul>
+              </ul>
+            </table>
+          </div>
+        </div>
+      </section>
     </body>
     
-    <footer> 
-      <div class="footer"> 
-        <small>&copy; Copyright. 2022. Carlos A Toledo Jr. All Rights Reserved.</small>
-      </div> 
+
+    <footer id="footer" > 
+      <small>&copy; Copyright. 2022. Carlos A Toledo Jr. All Rights Reserved.</small>
     </footer> 
 </html>
 
