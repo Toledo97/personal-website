@@ -27,3 +27,50 @@
     margin-right: auto;
 }
 
+#ibm{
+    max-width: 125px;
+    padding-bottom: .75em;
+}
+
+#ms{
+    max-width: 300px;
+    padding-bottom: .75em;
+}
+
+#top-container {
+    position: relative;
+    background-color: #8FBDD3;
+    padding: 1rem;
+}
+
+#sec-container{
+    background-color: #E4D1B9;
+    padding: 1rem;
+}
+
+#third-container {
+    background-color: #BE8C63;
+    padding: 1rem;
+}
+
+#fourth-container {
+    background-color: #A97155;
+    padding: 1rem;
+    color: white;
+}
+
+#bottom-container {
+    background-color: #AC4425;
+    padding: 1rem;
+    color: white;
+}
+
+#footer{
+    padding: 1.5em;
+    background-color: #8FBDD3;
+}
+
+#skills {
+    background-color: #BE8C63;
+    display: inline;
+}

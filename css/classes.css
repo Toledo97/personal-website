@@ -3,25 +3,9 @@
 #E4D1B9
 #BE8C63
 #A97155
+#AC4425
 */
 
-.top-container {
-    position: relative;
-}
-.sec-container {
-    background-color: #E4D1B9;
-}
-
-.third-container{
-    background-color: #BE8C63;
-}
-
-.bottom-container {
-    background-color: #A97155;
-}
-.footer{
-    padding: 1.5em;
-}
 .bdl{
     border: none;
     border-top: dashed;
@@ -45,20 +29,16 @@
 }
 .asm {
     max-width: 70px;
-    margin-bottom: -10px;
-}
-.profile {
-    background-color: #E4D1B9;
+    margin-bottom: 0px;
 }
 
-.skills {
-    background-color: #BE8C63;
+.profile {
+    background-color: #E4D1B9;
 }
 
 .contact-me{
     background-color: #A97155;
 }
-
 
 /* External code */
 
@@ -89,3 +69,11 @@ background-image: linear-gradient(to bottom, #BE8C63, #E4D1B9);
 text-decoration: none;
 }
 
+/* experience */
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 5%;
+}
