@@ -11,13 +11,19 @@
     left: 15%;
     bottom: 50%;
     max-width: fit-content;
-
 }
 
 #cloudsR{
     position: absolute;
     left: 60%;
     top: 10%;
+    max-width: fit-content;
+}
+
+#cloudsR2{
+    position: absolute;
+    right: 10%;
+    top: 50%;
     max-width: fit-content;
 }
 

@@ -31,6 +31,16 @@
     max-width: 70px;
     margin-bottom: 0px;
 }
+.js {
+    max-width: 40px;
+}
+.linkedin{
+    max-width: 35px;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    
+}
 
 .profile {
     background-color: #E4D1B9;
@@ -39,37 +49,6 @@
 .contact-me{
     background-color: #A97155;
 }
-
-/* External code */
-
-.btn {
-    background: #E4D1B9;
-    background-image: -webkit-linear-gradient(top, #E4D1B9, #BE8C63);
-    background-image: -moz-linear-gradient(top, #E4D1B9, #BE8C63);
-    background-image: -ms-linear-gradient(top, #E4D1B9, #BE8C63);
-    background-image: -o-linear-gradient(top, #E4D1B9, #BE8C63);
-    background-image: linear-gradient(to bottom, #E4D1B9, #BE8C63);
-    -webkit-border-radius: 26;
-    -moz-border-radius: 26;
-    border-radius: 26px;
-    font-family: Courier New;
-    color: #000000;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-  }
-  
-.btn:hover {
-background: #BE8C63;
-background-image: -webkit-linear-gradient(top, #BE8C63, #E4D1B9);
-background-image: -moz-linear-gradient(top, #BE8C63, #E4D1B9);
-background-image: -ms-linear-gradient(top, #BE8C63, #E4D1B9);
-background-image: -o-linear-gradient(top, #BE8C63, #E4D1B9);
-background-image: linear-gradient(to bottom, #BE8C63, #E4D1B9);
-text-decoration: none;
-}
-
-/* experience */
 
 .row {
     margin-left: auto;
