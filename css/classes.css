@@ -47,7 +47,6 @@
 }
 
 .icon{
-    width: 40px;
     width: 35px;
 }
 
@@ -55,6 +54,6 @@
     and (min-device-width:320px)
     and (max-device-width:480px){
         .icon{
-            min-width: 100px;
+            width: 100px;
         }
     }
