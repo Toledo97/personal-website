@@ -41,6 +41,16 @@
     right: 1%;
 
 }
+@media only screen 
+    and (min-device-width:320px)
+    and (max-device-width:480px){
+        .linkedin{
+            min-width: 100px;
+            position: fixed;
+            bottom: 1%;
+            right: 1%;
+        }
+    }
 
 .profile {
     background-color: #E4D1B9;
