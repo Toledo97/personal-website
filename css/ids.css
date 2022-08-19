@@ -70,3 +70,8 @@
     background-color: #8FBDD3;
 }
 
+#contact{
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+}
