@@ -54,6 +54,6 @@
     and (min-device-width:320px)
     and (max-device-width:480px){
         .icon{
-            width: 100px;
+            min-width: 100px;
         }
     }
