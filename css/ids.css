@@ -74,6 +74,6 @@
     position: fixed;
     padding-right: 1em;
     padding-bottom: 1em;
-    right:0;
-    bottom:0;
+    right:.5em;
+    bottom:.5em;
 }
