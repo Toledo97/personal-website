@@ -72,6 +72,6 @@
 
 #contact{
     position: fixed;
-    right: 1%;
-    bottom: 1%;
+    right: 1em;
+    bottom: 1em;
 }
