@@ -1,9 +1,9 @@
 <html>
   <head>
       <meta charset="utf-8">
-      <title>Carlos' Personal Site</title>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      <title>Carlos Toledo CV</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="css/styles.css">
       <link rel="stylesheet" href="css/classes.css">
       <link rel="stylesheet" href="css/ids.css">
@@ -12,20 +12,34 @@
       <link rel="preconnect" href="https://fonts.googleapis.com"> 
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
       <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&family=Inconsolata:wght@300&family=Source+Code+Pro&display=swap" rel="stylesheet">
-  </head>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    </head>
     <body>
       <section id = "top-container">
         <div>
           <img id="cloudsR" class="swingimage" src="photos/cloud.png" alt="">
           <img id="cloudsR2" class="swingimage delay4" src="photos/cloud.png" alt="">
-          <img id="pfp" src="photos/me.png" alt="">
-          <h1>Carlos A Toledo Jr</h1>
-          <p class="major">Computer Engineering @ UIUC</p>
+          <div>
+            <img id="pfp" src="photos/me.png" alt="">
+            <h1>Carlos A Toledo Jr</h1>
+            <p class="major">Computer Engineering @ UIUC</p>
+          </div>
           <img id="cloudsL" class="swingimage delay2" src="photos/cloud.png" alt="">
         </div>
-      </section >
+      </section>
 
       <section id="sec-container">
+        <h2>Languages & Technologies</h2> 
+        <img src="photos/cuda.png" class="cuda ball delay2">
+        <img src="photos/python.png" class="ball delay1">
+        <img src="photos/html-5.png" class="ball delay3">
+        <img src="photos/css-3.png" class="ball delay2">
+        <img src="photos/boot.png" class="ball delay4 js">
+        <img src="photos/mysql.png" class="ball delay1 mySql"> 
+        <img src="photos/jira.png" class="ball delay3 js">
+      </section>
+      
+      <section id="third-container">
         <h2>Work Experience</h2>  
         <div class="row">
           <div class="col-md-3">
@@ -38,21 +52,21 @@
             <table>
               <ul>
                 <strong>RESTful APIs: </strong>
-                Implemented the REST api to various python APIs that collect 1000+ clusters of data from Github and Service Now, 
-                improving data analyse and organization.
+                Integration in Python: Proficient in leveraging RESTful APIs within Python development,
+                utilizing tools like GitHub and ServiceNow to streamline collaboration and project management.
               </ul>
               <ul>
-                <strong>Databases: </strong>
-                Designed a parameterized Database API to save csv files to any given table and database using MySql and python.
+                <strong>MySQL database design and Python integration: </strong>
+                Skilled in designing and implementing MySQL databases,
+                seamlessly integrating them with Python applications to optimize data storage and retrieval capabilities.
               </ul>
               <ul>
-                <strong>Openshift: </strong>
-                Collobarated with others on a Openshift micro-service to organize and consolidate data that includes authorization and authentication methods.
+                <strong>Initial OpenShift app development: </strong>
+                Experienced in the beginning development of an OpenShift application,
+                incorporating secure user / pw protocols to safeguard sensitive user information and maintain system integrity.
               </ul>
               <ul>
-                <strong>Jira: </strong>
-                Practiced Agile/Scrum methodology through daily meetings, retrospectives, and reviews.
-              </ul>
+                
             </table>
           </div>
         </div>
@@ -68,42 +82,52 @@
           <div class="col-lg-8">
             <table>
               <ul>
-                <strong>Automation: </strong>
-                Built an automated on-boarding script that reads user input and populates multiple tables in a database with Python and MySQL, 
-                increasing time efficientcy by 75%.
+                <strong>Custom MySQL procedures with Python: </strong>
+                Generating and replacing tailored MySQL procedures using Python to optimize database performance.
               </ul>
               <ul>
-                <strong>Python APIs: </strong>
-                Created multiple Python APIs and used multiprocessing libraries to interact with different databases like CouchDB and Cosmos.
+                <strong>Python-driven data integration: </strong>
+                Merging data from CouchDB and Cosmos through Python scripts for seamless information flow.
               </ul>
               <ul>
-                <strong>MySQL: </strong>
-                Gained experience with cloud-based databases and cloud computing using the MySQL Workbench and the AWS Workspace.
-              </ul>
-              <ul>
-                <strong>Jira: </strong>
-                Learned and used the Atlassian Software for documentation in Confluence while implementing Agile/Scrum methodology with Jira.
+                <strong>Collaborating in multi-regional virtual teams: </strong>
+                Engaging with dispersed teams in daily design meetings to drive project success and maintain clear communication.
               </ul>
             </table>
           </div>
         </div>
       </section>
       
-      <section id="third-container">
-        <h3>Programming Languages</h3> 
-        <img src="photos/vhdl.png" class="vhdl profile ball delay1"></div>
-        <img src="photos/asm.png" class="asm ball delay3"></div>
-        <img src="photos/c.png" class="cProgramming ball delay2"></div>
-        <img src="photos/c-.png" class="ball delay4"></div>
-        <img src="photos/python.png" class="ball delay1"></div>
-        <img src="photos/html-5.png" class="ball delay3"></div>
-        <img src="photos/css-3.png" class="ball delay2"></div>
-        <img src="photos/js.png" class="js ball delay4"></div>
-        <img src="photos/mysql.png" class="mySql profile ball delay1"></div>  
-      </section>
-      
       <section id="fourth-container">
         <h3>Projects</h3>
+        <div class="row">
+          <div class="col-md-3">
+            <h4><strong>GPU Convolution Kernel Optimizations</strong> 
+            <h6>Champaign, IL</h6>
+            <h6>Nov 2022 - Dec 2022</h6>
+          </div>
+          <div class="col-lg-8">
+            <table>
+              <ul>
+                <strong>Description:</strong> Optimized a forward-pass of a convolutional layer using CUDA and profiling tools like Nsight
+                Systems and Nsight-Compute.                
+              </ul>
+              <ul>
+                <strong>Optimizations:</strong> 
+                <table>
+                  <ul class="fa fa-star" style="font: size 5px"> 
+                    <a href="https://developer.nvidia.com/blog/using-shared-memory-cuda-cc/">Shared Memory</a>: Data stored in shared memory to reduce FP16 datatype conversion delay</ul>
+                  <ul class="fa fa-star" style="font: size 5px"> 
+                    <a href="https://developer.nvidia.com/blog/mixed-precision-programming-cuda-8/">Fixed point (FP16) arithmetic</a>: Split channel iteration to reduce serial calculation</ul>
+                  <ul class="fa fa-star" style="font: size 5px"> 
+                    <a href="https://developer.nvidia.com/blog/how-overlap-data-transfers-cuda-cc/">Data Transfer with Streams</a>: Overlapped segmented data transfer with kernel execution</ul>
+                </table>
+              </ul>
+            </table>
+          </div>
+        </div>
+
+        <hr class="bdl">
         <div class="row">
           <div class="col-md-3">
             <h4><strong>CarlOS</strong>  <br> Operating System</h4>
@@ -137,14 +161,18 @@
           <div class="col-lg-8">
             <table>
               <ul>
-                <strong>Functionality:</strong> Used a keypad and a LCD screen in conjunction with the MSP432 to control lights, 
-                a fan, a temperature sensor, burglar alarm and a servo motor used for a door.
+                <strong>User Interface Development:</strong> 
+                Created a responsive user interface using a keypad and LCD screen, facilitating user interaction and system control.
               </ul>
               <ul>
-
+                <strong>Lighting and Fan Control:</strong> 
+                Programmed control mechanisms for lighting and fan systems using PWM outputs, enabling user-defined adjustments.
+              </ul>
+              <ul>
+                <strong>Temperature Monitoring:</strong>
+                Integrated a temperature sensor, allowing for real-time temperature monitoring and display on the LCD screen.
               </ul>
             </table>
-            
           </div>
         </div>
         
@@ -176,6 +204,26 @@
 
       <section id="bottom-container">
         <h3>Leadership & Actvities</h3>
+        <div class="row">
+          <div class="col-md-3">
+            <h4>First Lego League</h4> 
+            <h6>Jan 2023 - May 2023</h6>
+          </div>
+          <div class="col-lg-8">
+            <table>
+              <ul>
+                <strong>Volunteer</strong>
+                <ul>
+                  <li>
+                    I served as a coach / mentor to the teams, helping them learn about robotics, coding, and problem-solving. This included guiding students to understand the core values of FIRST LEGO League, which are discovery, innovation, impact, inclusion, teamwork, and fun.                  </li>
+                  <li>
+                    I helped with workshops on specific skills, including sessions on programming LEGO SPIKE robots, brainstorming solutions to problems, and effectively presenting and communicating.                  </li>
+                </ul>
+              </ul>
+            </table>
+          </div>
+        </div>
+        <hr class="bdl">
         <div class="row">
           <div class="col-md-3">
             <h4>IBM Accelerate Program</h4> 
@@ -269,13 +317,39 @@
         </div>
       </section>
 
+      <nav class="navbar navbar-light" id="bar">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button  type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" ></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse bg-light" id="myNavbar">
+            <ul class="nav navbar-nav me-auto">
+              <li class="active">
+                <a class="nav-link" href="#top-container" data-bs-target=".navbar-collapse.show">Home</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="bio.html" data-bs-target=".navbar-collapse.show">Bio</a></li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sec-container" data-bs-target=".navbar-collapse.show">Skills</a></li>
+                  <li class="nav-item">
+                <a class="nav-link" href="#third-container" data-bs-target=".navbar-collapse.show">Experience</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fourth-container" data-bs-target=".navbar-collapse.show">Projects</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#bottom-container" data-bs-target=".navbar-collapse.show">Activities</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
       <div id="contact">
         <a href="mailto:ctoledo2@illinois.edu"><img src="photos/email.svg" class="icon"></a>
       <br>
         <a href="https://www.linkedin.com/in/carlos-a-toledo-jr-10a998156/"><img src="photos/linkedin-brands.svg" class="icon"></a>
-      </div>
-      
+      </div> 
     </body>
+
     <footer id="footer" >
       <small>&copy; Copyright. 2022. Carlos A Toledo Jr. All Rights Reserved.</small>
     </footer> 

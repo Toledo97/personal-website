@@ -10,27 +10,18 @@
     border: none;
     border-top: dashed;
     border-color: #8FBDD3;
-    width: 50%;
+    width: 100%;
 }
 .major{
     color: navy;;
 }
-.cProgramming {
-    max-width: 46px;
+.cuda {
+    max-width: 65px;
 }
 .mySql {
-    max-width: 90px;
-    border-radius: 15%;
+    max-width: 55px;
 }
-.vhdl {
-    max-width: 115px;
-    margin-bottom: 5px;
-    border-radius: 15%;
-}
-.asm {
-    max-width: 70px;
-    margin-bottom: 0px;
-}
+
 .js {
     max-width: 40px;
 }
@@ -57,3 +48,8 @@
             min-width: 100px;
         }
     }
+
+/* NavBar */
+.container-fluid{
+    padding: 0em;
+}

@@ -13,6 +13,25 @@
     max-width: fit-content;
 }
 
+#cloudsL-2{
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    max-width: fit-content;
+}
+#cloudsR-2{
+    position: absolute;
+    left: 70%;
+    top: 10%;
+    max-width: fit-content;
+}
+#cloudsR-2-low{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    max-width: fit-content;
+}
+
 #cloudsR{
     position: absolute;
     left: 60%;
@@ -28,12 +47,12 @@
 }
 
 #ibm{
-    max-width: 125px;
+    max-width: 110px;
     padding-bottom: .75em;
 }
 
 #ms{
-    max-width: 300px;
+    max-width: 310px;
     padding-bottom: .75em;
 }
 
@@ -74,4 +93,17 @@
     position: fixed;
     right: 1em;
     bottom: 1em;
+}
+
+#bio {
+    position: relative;
+    background-color: #8FBDD3;
+    padding: 1rem;
+}
+
+#bar{
+    position: fixed;
+    right: 1em;
+    top: 1em;
+    padding: 0em;
 }
