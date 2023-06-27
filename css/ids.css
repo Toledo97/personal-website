@@ -4,6 +4,7 @@
     max-height: 200px;
     margin-top: 50px;
     margin-bottom: 15px;
+    position: relative;
 }
 
 #cloudsL{
@@ -95,15 +96,33 @@
     bottom: 1em;
 }
 
-#bio {
+#back{
+    position: fixed;
+    left: 1.5em;
+    top: 1.5em;
+    background-color: white;
+    border-radius: 25px;
+}
+
+#biog {
     position: relative;
     background-color: #8FBDD3;
     padding: 1rem;
 }
 
+#cert {
+    position: relative;
+    background-color: #E4D1B9;
+    padding: 1rem;
+}
+
 #bar{
     position: fixed;
-    right: 1em;
+    left: 1em;
     top: 1em;
     padding: 0em;
+}
+#verified{
+    top: 0;
+    left: 0;
 }

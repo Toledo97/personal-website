@@ -30,6 +30,9 @@
     background-color: #E4D1B9;
 }
 
+.col{
+}
+
 .row {
     margin-left: auto;
     margin-right: auto;
@@ -41,6 +44,35 @@
     width: 35px;
 }
 
+.mini-icon{
+    width: 25px;
+}
+.cert-icon{
+    font-size: 70px;
+}
+.cert-icon2{
+    font-size: 120px;
+}
+
+.ibm-verified{
+    position: absolute;
+    width: 35px;
+    left: -3%;
+    top:-3%;
+}
+.verified{
+    position: absolute;
+    width: 35px;
+    left: -1%;
+    top:-3%;
+}
+.boxed{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
 @media only screen 
     and (min-device-width:320px)
     and (max-device-width:480px){
@@ -48,6 +80,12 @@
             min-width: 100px;
         }
     }
+
+@media (max-width: 600px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
 
 /* NavBar */
 .container-fluid{
