@@ -1,0 +1,18 @@
+<iframe class="preview" src="https://courses.nvidia.com/certificates/26378fb0acfe4a2fb1f026fa84d5109f/"">
+                        <p>Your browser does not support iframes.</p>
+                      </iframe>
+
+
+
+
+                      .preview {
+    width:700px; height:400px;
+    -webkit-transform:scale(.25);
+    -ms-transform:scale(.5);
+    transform:scale(.5);
+    -webkit-transform-origin:0 0; 
+    -ms-transform-origin:0 0; 
+    transform-origin:0 0; 
+    border:4px solid blue;
+    margin:0 0 -300px 0;
+}
